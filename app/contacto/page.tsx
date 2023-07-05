@@ -10,17 +10,23 @@ import "./contacto.css";
 
             */
 }
-<form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden>
-  <input type="text" name="nombre" />
-  <input type="email" name="email" />
-  <textarea name="comentario"></textarea>
-</form>;
+
 export default function Contacto() {
   return (
     <>
       <h1>Estás en contacto</h1>
-
-      <form action="" method="post" className="formulario">
+      <form
+        name="contacto"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        hidden
+      >
+        <input type="text" name="nombre" />
+        <input type="email" name="email" />
+        <textarea name="comentario"></textarea>
+      </form>
+      ;
+      <form method="post" className="formulario">
         <label>
           Nombre:
           <input type="text" name="nombre" />
