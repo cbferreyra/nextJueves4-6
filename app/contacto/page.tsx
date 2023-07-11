@@ -16,6 +16,7 @@ export default function Contacto() {
 
       {/* Acá duplico mi form para Netlify */}
       <form
+        action="./contacto/gracias"
         name="contacto"
         data-netlify="true"
         netlify-honeypot="bot-field"
